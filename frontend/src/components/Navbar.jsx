@@ -4,11 +4,11 @@ import { Bus, Search, MapPin, Navigation, Cpu, BookOpen, Wifi, WifiOff } from 'l
 export default function Navbar({ activeTab, setActiveTab, socketConnected, latestEvent }) {
   const navItems = [
     { id: 'home', label: 'Home', icon: Bus },
-    { id: 'dashboard', label: 'Find a Bus', icon: Search },
+    { id: 'dashboard', label: 'Track Bus', icon: Search },
     { id: 'routes', label: 'Routes', icon: MapPin },
-    { id: 'insights', label: 'Research', icon: Cpu },
-    { id: 'conductor', label: 'Conductor', icon: Navigation },
-    { id: 'simulator', label: 'Demo Simulator', icon: Cpu },
+    { id: 'insights', label: 'Insights', icon: Cpu },
+    { id: 'conductor', label: 'Driver Mode', icon: Navigation },
+    { id: 'simulator', label: 'Try Demo', icon: Cpu },
     { id: 'about', label: 'About', icon: BookOpen },
   ];
 
@@ -26,7 +26,7 @@ export default function Navbar({ activeTab, setActiveTab, socketConnected, lates
                 Transit<span className="text-teal-600">IQ</span>
               </span>
             </div>
-            <p className="text-xs text-slate-500 font-medium hidden sm:block">Public Transit Information</p>
+            <p className="text-xs text-slate-500 font-medium hidden sm:block">Real-Time Bus Tracking</p>
           </div>
         </div>
 
@@ -59,14 +59,14 @@ export default function Navbar({ activeTab, setActiveTab, socketConnected, lates
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-teal-500"></span>
               </span>
               <span className="text-teal-700 font-medium flex items-center gap-1">
-                Live Server
+                Connected
               </span>
             </>
           ) : (
             <>
               <span className="h-2 w-2 rounded-full bg-slate-400"></span>
               <span className="text-slate-500 flex items-center gap-1">
-                Server Standby
+                Connecting...
               </span>
             </>
           )}

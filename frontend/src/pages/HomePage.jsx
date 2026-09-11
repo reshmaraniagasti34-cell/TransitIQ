@@ -15,10 +15,10 @@ export default function HomePage({ setActiveTab }) {
             <span className="text-sm font-bold uppercase tracking-widest">Welcome to TransitIQ</span>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-3">
-            Your Smart Bus Companion
+            Know When Your Bus Arrives
           </h1>
           <p className="text-lg text-white/90 font-medium max-w-2xl">
-            Real-time ETA predictions powered by AI & live tracking • Never miss your bus again
+            Get accurate arrival times and track your bus live • Never wait in the dark
           </p>
         </div>
       </div>
@@ -32,10 +32,10 @@ export default function HomePage({ setActiveTab }) {
               <span className="text-sm font-bold text-emerald-700 uppercase tracking-wider">Get Started Now</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-2">
-              Check Live Bus Status & Book Your Seat
+              Check Your Bus & Book Your Seat
             </h2>
             <p className="text-slate-700 text-sm sm:text-base font-medium">
-              View accurate ETA predictions, track bus location in real-time, and book instantly with confidence.
+              See when your bus will arrive, watch it coming, and book your seat with confidence.
             </p>
           </div>
           <button 
@@ -54,16 +54,16 @@ export default function HomePage({ setActiveTab }) {
         <div className="lg:col-span-7 space-y-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-teal-50 text-teal-800 border border-teal-200">
             <Bus className="w-4 h-4 text-teal-600" />
-            <span>Pilot Transit Corridor • Sehore ↔ VIT Bhopal</span>
+            <span>Available Route • Sehore ↔ VIT Bhopal</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
-            Smarter Bus Travel, <br />
-            <span className="text-teal-600">Even Without Live GPS</span>
+            Smart Bus Tracking, <br />
+            <span className="text-teal-600">Always Accurate</span>
           </h1>
 
           <p className="text-slate-600 text-base leading-relaxed max-w-xl">
-            TransitIQ provides reliable arrival estimates using live location, historical trip patterns, and machine learning fallback models—keeping passengers informed even during GPS dead zones.
+            We show you accurate arrival times using live bus location and patterns from past journeys—so you know exactly when to expect your bus, even in areas with poor signal.
           </p>
 
           <div className="flex flex-wrap items-center gap-3 pt-2">
@@ -148,9 +148,9 @@ export default function HomePage({ setActiveTab }) {
           <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-700 flex items-center justify-center mb-4">
             <Signal className="w-5 h-5" />
           </div>
-          <h3 className="text-base font-bold text-slate-900 mb-1.5">Signal-Aware ETAs</h3>
+          <h3 className="text-base font-bold text-slate-900 mb-1.5">Smart Predictions</h3>
           <p className="text-xs text-slate-600 leading-relaxed">
-            Automatically evaluates GPS telemetry state and adjusts prediction confidence levels.
+            We check GPS signal strength and adjust our predictions to give you the most accurate arrival time.
           </p>
         </div>
 
@@ -158,9 +158,9 @@ export default function HomePage({ setActiveTab }) {
           <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-700 flex items-center justify-center mb-4">
             <Clock className="w-5 h-5" />
           </div>
-          <h3 className="text-base font-bold text-slate-900 mb-1.5">Historical Range</h3>
+          <h3 className="text-base font-bold text-slate-900 mb-1.5">Arrival Time Range</h3>
           <p className="text-xs text-slate-600 leading-relaxed">
-            Calculates realistic arrival ranges based on historical segment durations.
+            Based on how long buses typically take on this route, we give you a window of when your bus should arrive.
           </p>
         </div>
 
@@ -168,9 +168,9 @@ export default function HomePage({ setActiveTab }) {
           <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-700 flex items-center justify-center mb-4">
             <ShieldCheck className="w-5 h-5" />
           </div>
-          <h3 className="text-base font-bold text-slate-900 mb-1.5">Hybrid Intelligence</h3>
+          <h3 className="text-base font-bold text-slate-900 mb-1.5">Reliable Even Without Signal</h3>
           <p className="text-xs text-slate-600 leading-relaxed">
-            Combines machine learning with baseline analytics to prevent false predictions during signal outages.
+            If GPS signal is lost, we use past journey data to keep giving you accurate predictions you can trust.
           </p>
         </div>
       </div>

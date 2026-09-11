@@ -49,25 +49,25 @@ export default function DashboardPage() {
     switch (state) {
       case 'LIVE':
         return {
-          label: 'Live location • Updated just now',
+          label: '✓ Bus location is live • Just updated',
           color: 'bg-emerald-50 text-emerald-800 border-emerald-300',
           icon: Wifi
         };
       case 'PARTIAL':
         return {
-          label: 'Live location unavailable • Using last known location',
+          label: '⚠ No live GPS • Using last known position',
           color: 'bg-amber-50 text-amber-800 border-amber-300',
           icon: SignalLow
         };
       case 'HISTORICAL':
         return {
-          label: 'No recent live location',
+          label: 'GPS signal lost • Using past journey data',
           color: 'bg-slate-100 text-slate-800 border-slate-300',
           icon: SignalZero
         };
       default:
         return {
-          label: 'Arrival time unavailable • Check again when bus is on route',
+          label: 'Arrival time not available yet • Check back when bus is on the route',
           color: 'bg-slate-100 text-slate-700 border-slate-200',
           icon: SignalZero
         };
@@ -82,10 +82,10 @@ export default function DashboardPage() {
       {/* 0. Attractive Headline Section */}
       <div className="space-y-3 text-center">
         <h1 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-teal-600 via-teal-500 to-blue-600 bg-clip-text text-transparent">
-          Smart Transit Tracking
+          Track Your Bus Right Now
         </h1>
         <p className="text-lg text-slate-600 font-medium">
-          Real-time ETA predictions powered by AI • Every journey, optimized
+          See when your bus will arrive • Updated every few seconds
         </p>
         <div className="flex justify-center gap-1 pt-1">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-teal-500"></span>
@@ -103,10 +103,10 @@ export default function DashboardPage() {
               <span className="text-sm font-bold text-emerald-700 uppercase tracking-wider">Ready to Book?</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-2">
-              Book Your Bus Journey
+              Reserve Your Seat Now
             </h2>
             <p className="text-slate-700 text-sm sm:text-base font-medium">
-              Check live ETA and reserve your seat instantly. Real-time tracking included.
+              Confirm the bus is on its way and book your seat in seconds. See live updates as it gets closer.
             </p>
           </div>
           <button className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold text-base rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 flex items-center justify-center gap-2 whitespace-nowrap">
@@ -185,7 +185,7 @@ export default function DashboardPage() {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
           <div>
             <span className="text-xs font-semibold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md border border-teal-200">
-              Pilot Corridor Service
+              Available Route
             </span>
             <h3 className="text-xl font-extrabold text-slate-900 mt-2">
               {direction === 'SEHORE_TO_VIT' ? 'Sehore Bus Stand → VIT Bhopal' : 'VIT Bhopal → Sehore Bus Stand'}
@@ -202,30 +202,30 @@ export default function DashboardPage() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {/* Main ETA */}
           <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5 text-center">
-            <span className="text-xs font-medium text-slate-500 block mb-1">Estimated Arrival (ETA)</span>
+            <span className="text-xs font-medium text-slate-500 block mb-1">Bus Will Arrive In</span>
             <div className="text-4xl font-extrabold text-slate-900 flex items-baseline justify-center gap-1">
               <span>{etaData && etaData.eta_minutes !== null ? etaData.eta_minutes : '--'}</span>
               <span className="text-base font-bold text-teal-600">min</span>
             </div>
-            <span className="text-[11px] text-slate-500 mt-1 block">Expected Remaining Time</span>
+            <span className="text-[11px] text-slate-500 mt-1 block">Time left to wait</span>
           </div>
 
           {/* Expected Range */}
           <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5 text-center">
-            <span className="text-xs font-medium text-slate-500 block mb-1">ETA Range</span>
+            <span className="text-xs font-medium text-slate-500 block mb-1">Arrival Window</span>
             <div className="text-2xl font-bold text-slate-800 flex items-center justify-center h-10">
               <span>{etaData && etaData.eta_range ? etaData.eta_range : '--'}</span>
             </div>
-            <span className="text-[11px] text-slate-500 mt-1 block">Uncertainty Bound</span>
+            <span className="text-[11px] text-slate-500 mt-1 block">Expected range (min to max)</span>
           </div>
 
           {/* Confidence */}
           <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5 text-center">
-            <span className="text-xs font-medium text-slate-500 block mb-1">Confidence</span>
+            <span className="text-xs font-medium text-slate-500 block mb-1">Prediction Accuracy</span>
             <div className="text-lg font-bold text-teal-700 flex items-center justify-center h-10">
-              <span>{etaData ? (etaData.confidence_level || 'Normal') : 'Standby'}</span>
+              <span>{etaData ? (etaData.confidence_level || 'Good') : 'Waiting'}</span>
             </div>
-            <span className="text-[11px] text-slate-500 mt-1 block">Signal Reliability</span>
+            <span className="text-[11px] text-slate-500 mt-1 block">How reliable is this estimate?</span>
           </div>
         </div>
 
@@ -233,9 +233,9 @@ export default function DashboardPage() {
         <div className="p-4 bg-slate-50 border border-slate-200 rounded-2xl flex items-center gap-3 text-xs text-slate-700">
           <MapPin className="w-4 h-4 text-teal-600 shrink-0" />
           <div>
-            <span className="font-bold text-slate-900">Current Position: </span>
+            <span className="font-bold text-slate-900">Bus is Currently: </span>
             <span>
-              {etaData && etaData.current_segment ? etaData.current_segment : 'Amlaha ➔ Toll Plaza'}
+              {etaData && etaData.current_segment ? etaData.current_segment : 'Between Amlaha and Toll Plaza'}
             </span>
           </div>
         </div>
