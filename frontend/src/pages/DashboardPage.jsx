@@ -78,7 +78,44 @@ export default function DashboardPage() {
   const BadgeIcon = badge.icon;
 
   return (
-    <div className="space-y-8 max-w-4xl mx-auto py-2">
+    <div className="space-y-8 max-w-4xl mx-auto py-6">
+      {/* 0. Attractive Headline Section */}
+      <div className="space-y-3 text-center">
+        <h1 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-teal-600 via-teal-500 to-blue-600 bg-clip-text text-transparent">
+          Smart Transit Tracking
+        </h1>
+        <p className="text-lg text-slate-600 font-medium">
+          Real-time ETA predictions powered by AI • Every journey, optimized
+        </p>
+        <div className="flex justify-center gap-1 pt-1">
+          <span className="inline-block w-1.5 h-1.5 rounded-full bg-teal-500"></span>
+          <span className="inline-block w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+          <span className="inline-block w-1.5 h-1.5 rounded-full bg-teal-500"></span>
+        </div>
+      </div>
+
+      {/* Bus Booking CTA Section - with breathable distance */}
+      <div className="bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-200 rounded-3xl p-8 sm:p-10 shadow-sm hover:shadow-md transition-shadow">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="flex-1">
+            <div className="flex items-center gap-2 mb-2">
+              <Bus className="w-6 h-6 text-emerald-600" />
+              <span className="text-sm font-bold text-emerald-700 uppercase tracking-wider">Ready to Book?</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-2">
+              Book Your Bus Journey
+            </h2>
+            <p className="text-slate-700 text-sm sm:text-base font-medium">
+              Check live ETA and reserve your seat instantly. Real-time tracking included.
+            </p>
+          </div>
+          <button className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold text-base rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 flex items-center justify-center gap-2 whitespace-nowrap">
+            <Bus className="w-5 h-5" />
+            Book Now
+          </button>
+        </div>
+      </div>
+
       {/* 1. Simple Journey Search Form */}
       <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">
         <h2 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">

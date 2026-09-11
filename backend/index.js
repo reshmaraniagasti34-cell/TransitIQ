@@ -62,6 +62,21 @@ setInterval(() => {
   });
 }, 5000);
 
+// GET /
+app.get('/', (req, res) => {
+  res.json({
+    message: 'TransitIQ Backend API',
+    version: '1.0.0',
+    endpoints: [
+      'GET /api/health',
+      'GET /api/trips/:id/signal-status',
+      'GET /api/routes/:id/eta',
+      'POST /api/routes/:id/eta',
+      'POST /api/trips/:id/position'
+    ]
+  });
+});
+
 // GET /api/health
 app.get('/api/health', (req, res) => {
   res.json({

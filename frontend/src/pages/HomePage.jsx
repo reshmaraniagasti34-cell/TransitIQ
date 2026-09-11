@@ -4,6 +4,50 @@ import { Bus, Search, ArrowRight, ShieldCheck, Clock, MapPin, Signal } from 'luc
 export default function HomePage({ setActiveTab }) {
   return (
     <div className="space-y-12 py-4">
+      {/* Header Banner with Bus Icon */}
+      <div className="bg-gradient-to-r from-teal-600 via-blue-600 to-emerald-600 rounded-3xl p-8 sm:p-12 shadow-lg text-white relative overflow-hidden">
+        <div className="absolute top-0 right-0 opacity-10 transform -rotate-12">
+          <Bus className="w-48 h-48" />
+        </div>
+        <div className="relative z-10">
+          <div className="flex items-center gap-3 mb-3">
+            <Bus className="w-8 h-8" />
+            <span className="text-sm font-bold uppercase tracking-widest">Welcome to TransitIQ</span>
+          </div>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-3">
+            Your Smart Bus Companion
+          </h1>
+          <p className="text-lg text-white/90 font-medium max-w-2xl">
+            Real-time ETA predictions powered by AI & live tracking • Never miss your bus again
+          </p>
+        </div>
+      </div>
+
+      {/* Bus Booking CTA - with breathable distance */}
+      <div className="bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-200 rounded-3xl p-8 sm:p-10 shadow-sm hover:shadow-md transition-shadow">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="flex-1">
+            <div className="flex items-center gap-2 mb-2">
+              <Bus className="w-6 h-6 text-emerald-600" />
+              <span className="text-sm font-bold text-emerald-700 uppercase tracking-wider">Get Started Now</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-2">
+              Check Live Bus Status & Book Your Seat
+            </h2>
+            <p className="text-slate-700 text-sm sm:text-base font-medium">
+              View accurate ETA predictions, track bus location in real-time, and book instantly with confidence.
+            </p>
+          </div>
+          <button 
+            onClick={() => setActiveTab('dashboard')}
+            className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold text-base rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 flex items-center justify-center gap-2 whitespace-nowrap"
+          >
+            <Search className="w-5 h-5" />
+            Check Status Now
+          </button>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-white border border-slate-200 rounded-3xl p-6 sm:p-10 shadow-sm">
         {/* Hero Left Content */}
@@ -13,7 +57,7 @@ export default function HomePage({ setActiveTab }) {
             <span>Pilot Transit Corridor • Sehore ↔ VIT Bhopal</span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
             Smarter Bus Travel, <br />
             <span className="text-teal-600">Even Without Live GPS</span>
           </h1>
