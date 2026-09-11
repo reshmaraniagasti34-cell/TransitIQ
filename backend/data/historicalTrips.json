@@ -1,0 +1,833 @@
+[
+  {
+    "trip_record_id": "OBS-001",
+    "data_origin": "observed",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "07:18",
+    "stop_timestamps": {
+      "Sehore Bus Stand": "07:18",
+      "Kubreshwar Dham": "07:32",
+      "Amlaha": "07:43",
+      "Toll Plaza": "07:47",
+      "VIT Bhopal Outer Highway": "07:53"
+    },
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 14,
+      "Kubreshwar Dham__Amlaha": 11,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 35
+  },
+  {
+    "trip_record_id": "SIM-001",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "07:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 15,
+      "Kubreshwar Dham__Amlaha": 12,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-002",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "08:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 14,
+      "Kubreshwar Dham__Amlaha": 11,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 5
+    },
+    "total_duration_minutes": 34
+  },
+  {
+    "trip_record_id": "SIM-003",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "08:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 16,
+      "Kubreshwar Dham__Amlaha": 12,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 39
+  },
+  {
+    "trip_record_id": "SIM-004",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "09:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 15,
+      "Kubreshwar Dham__Amlaha": 11,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 36
+  },
+  {
+    "trip_record_id": "SIM-005",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "09:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 14,
+      "Kubreshwar Dham__Amlaha": 12,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 36
+  },
+  {
+    "trip_record_id": "SIM-006",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "10:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 15,
+      "Kubreshwar Dham__Amlaha": 13,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 38
+  },
+  {
+    "trip_record_id": "SIM-007",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "12:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 16,
+      "Kubreshwar Dham__Amlaha": 13,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 7
+    },
+    "total_duration_minutes": 41
+  },
+  {
+    "trip_record_id": "SIM-008",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "13:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 17,
+      "Kubreshwar Dham__Amlaha": 14,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 7
+    },
+    "total_duration_minutes": 43
+  },
+  {
+    "trip_record_id": "SIM-009",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "14:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 16,
+      "Kubreshwar Dham__Amlaha": 13,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 40
+  },
+  {
+    "trip_record_id": "SIM-010",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "15:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 15,
+      "Kubreshwar Dham__Amlaha": 12,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-011",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "16:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 17,
+      "Kubreshwar Dham__Amlaha": 14,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 7
+    },
+    "total_duration_minutes": 43
+  },
+  {
+    "trip_record_id": "SIM-012",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "evening",
+    "start_time": "17:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 18,
+      "Kubreshwar Dham__Amlaha": 15,
+      "Amlaha__Toll Plaza": 6,
+      "Toll Plaza__VIT Bhopal Outer Highway": 8
+    },
+    "total_duration_minutes": 47
+  },
+  {
+    "trip_record_id": "SIM-013",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "evening",
+    "start_time": "18:15",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 19,
+      "Kubreshwar Dham__Amlaha": 15,
+      "Amlaha__Toll Plaza": 6,
+      "Toll Plaza__VIT Bhopal Outer Highway": 7
+    },
+    "total_duration_minutes": 47
+  },
+  {
+    "trip_record_id": "SIM-014",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "evening",
+    "start_time": "19:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 18,
+      "Kubreshwar Dham__Amlaha": 14,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 7
+    },
+    "total_duration_minutes": 44
+  },
+  {
+    "trip_record_id": "SIM-015",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "evening",
+    "start_time": "19:45",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 16,
+      "Kubreshwar Dham__Amlaha": 13,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 40
+  },
+  {
+    "trip_record_id": "SIM-016",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "morning",
+    "start_time": "08:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 13,
+      "Kubreshwar Dham__Amlaha": 10,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 5
+    },
+    "total_duration_minutes": 32
+  },
+  {
+    "trip_record_id": "SIM-017",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "morning",
+    "start_time": "09:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 14,
+      "Kubreshwar Dham__Amlaha": 11,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 5
+    },
+    "total_duration_minutes": 34
+  },
+  {
+    "trip_record_id": "SIM-018",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "morning",
+    "start_time": "11:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 14,
+      "Kubreshwar Dham__Amlaha": 11,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 35
+  },
+  {
+    "trip_record_id": "SIM-019",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "13:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 15,
+      "Kubreshwar Dham__Amlaha": 12,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-020",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "15:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 15,
+      "Kubreshwar Dham__Amlaha": 12,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 38
+  },
+  {
+    "trip_record_id": "SIM-021",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "evening",
+    "start_time": "17:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 16,
+      "Kubreshwar Dham__Amlaha": 13,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 40
+  },
+  {
+    "trip_record_id": "SIM-022",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "evening",
+    "start_time": "19:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 16,
+      "Kubreshwar Dham__Amlaha": 12,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 38
+  },
+  {
+    "trip_record_id": "SIM-023",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "10:30",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 15,
+      "Kubreshwar Dham__Amlaha": 12,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-024",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "12:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 15,
+      "Kubreshwar Dham__Amlaha": 12,
+      "Amlaha__Toll Plaza": 4,
+      "Toll Plaza__VIT Bhopal Outer Highway": 6
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-025",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "SEHORE_TO_VIT",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "evening",
+    "start_time": "17:00",
+    "segment_durations_minutes": {
+      "Sehore Bus Stand__Kubreshwar Dham": 17,
+      "Kubreshwar Dham__Amlaha": 14,
+      "Amlaha__Toll Plaza": 5,
+      "Toll Plaza__VIT Bhopal Outer Highway": 7
+    },
+    "total_duration_minutes": 43
+  },
+  {
+    "trip_record_id": "SIM-026",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "07:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 6,
+      "Amlaha__Kubreshwar Dham": 11,
+      "Kubreshwar Dham__Indore Naka": 14,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-027",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "08:15",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 6,
+      "Amlaha__Kubreshwar Dham": 11,
+      "Kubreshwar Dham__Indore Naka": 14,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-028",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "09:00",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 6,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 40
+  },
+  {
+    "trip_record_id": "SIM-029",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "09:45",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 14,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 39
+  },
+  {
+    "trip_record_id": "SIM-030",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "10:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 6,
+      "Amlaha__Kubreshwar Dham": 11,
+      "Kubreshwar Dham__Indore Naka": 14,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-031",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "11:15",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 40
+  },
+  {
+    "trip_record_id": "SIM-032",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "12:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 13,
+      "Kubreshwar Dham__Indore Naka": 16,
+      "Indore Naka__Nadi/Hospital Chauraha": 4,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 44
+  },
+  {
+    "trip_record_id": "SIM-033",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "13:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 13,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 4,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 43
+  },
+  {
+    "trip_record_id": "SIM-034",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "14:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 6,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 40
+  },
+  {
+    "trip_record_id": "SIM-035",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "15:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 41
+  },
+  {
+    "trip_record_id": "SIM-036",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "16:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 13,
+      "Kubreshwar Dham__Indore Naka": 16,
+      "Indore Naka__Nadi/Hospital Chauraha": 4,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 44
+  },
+  {
+    "trip_record_id": "SIM-037",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "evening",
+    "start_time": "17:15",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 41
+  },
+  {
+    "trip_record_id": "SIM-038",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "evening",
+    "start_time": "18:00",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 8,
+      "Amlaha__Kubreshwar Dham": 14,
+      "Kubreshwar Dham__Indore Naka": 17,
+      "Indore Naka__Nadi/Hospital Chauraha": 4,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 5
+    },
+    "total_duration_minutes": 48
+  },
+  {
+    "trip_record_id": "SIM-039",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "evening",
+    "start_time": "18:45",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 8,
+      "Amlaha__Kubreshwar Dham": 13,
+      "Kubreshwar Dham__Indore Naka": 16,
+      "Indore Naka__Nadi/Hospital Chauraha": 4,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 45
+  },
+  {
+    "trip_record_id": "SIM-040",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "evening",
+    "start_time": "19:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 41
+  },
+  {
+    "trip_record_id": "SIM-041",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "morning",
+    "start_time": "08:00",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 6,
+      "Amlaha__Kubreshwar Dham": 10,
+      "Kubreshwar Dham__Indore Naka": 13,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 35
+  },
+  {
+    "trip_record_id": "SIM-042",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "morning",
+    "start_time": "09:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 6,
+      "Amlaha__Kubreshwar Dham": 11,
+      "Kubreshwar Dham__Indore Naka": 14,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-043",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "morning",
+    "start_time": "11:00",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 6,
+      "Amlaha__Kubreshwar Dham": 11,
+      "Kubreshwar Dham__Indore Naka": 14,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-044",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "13:00",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 41
+  },
+  {
+    "trip_record_id": "SIM-045",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "15:00",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 41
+  },
+  {
+    "trip_record_id": "SIM-046",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "evening",
+    "start_time": "17:30",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 41
+  },
+  {
+    "trip_record_id": "SIM-047",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekend",
+    "time_of_day_bucket": "evening",
+    "start_time": "19:00",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 12,
+      "Kubreshwar Dham__Indore Naka": 14,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 39
+  },
+  {
+    "trip_record_id": "SIM-048",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "morning",
+    "start_time": "06:45",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 6,
+      "Amlaha__Kubreshwar Dham": 11,
+      "Kubreshwar Dham__Indore Naka": 14,
+      "Indore Naka__Nadi/Hospital Chauraha": 3,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 3
+    },
+    "total_duration_minutes": 37
+  },
+  {
+    "trip_record_id": "SIM-049",
+    "data_origin": "simulated",
+    "route_id": "SH-VIT-01",
+    "direction": "VIT_TO_SEHORE",
+    "day_of_week": "weekday",
+    "time_of_day_bucket": "afternoon",
+    "start_time": "16:00",
+    "segment_durations_minutes": {
+      "VIT Bhopal Outer Highway__Amlaha": 7,
+      "Amlaha__Kubreshwar Dham": 13,
+      "Kubreshwar Dham__Indore Naka": 15,
+      "Indore Naka__Nadi/Hospital Chauraha": 4,
+      "Nadi/Hospital Chauraha__Sehore Bus Stand": 4
+    },
+    "total_duration_minutes": 43
+  }
+]

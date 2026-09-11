@@ -1,0 +1,123 @@
+{
+  "seed": 42,
+  "test_samples": 124,
+  "observed_trips_count": 10,
+  "simulated_trips_count": 610,
+  "levels": {
+    "0%": {
+      "missing_percentage": 0,
+      "retained_percentage": 100,
+      "historical_baseline": {
+        "mae": 0.8776,
+        "rmse": 1.1655,
+        "available": true
+      },
+      "ml": {
+        "mae": 1.1741,
+        "rmse": 1.645,
+        "available": true,
+        "reason": "Evaluated on retained/stale GPS observations",
+        "interval_coverage_percent": 77.42,
+        "avg_interval_width": 8.81
+      },
+      "hybrid": {
+        "mae": 1.0117,
+        "rmse": 1.4168,
+        "available": true,
+        "fallback_active": false
+      }
+    },
+    "25%": {
+      "missing_percentage": 25,
+      "retained_percentage": 75,
+      "historical_baseline": {
+        "mae": 0.8776,
+        "rmse": 1.1655,
+        "available": true
+      },
+      "ml": {
+        "mae": 5.9043,
+        "rmse": 11.2658,
+        "available": true,
+        "reason": "Evaluated on retained/stale GPS observations",
+        "interval_coverage_percent": 57.26,
+        "avg_interval_width": 9.68
+      },
+      "hybrid": {
+        "mae": 3.321,
+        "rmse": 5.7784,
+        "available": true,
+        "fallback_active": false
+      }
+    },
+    "50%": {
+      "missing_percentage": 50,
+      "retained_percentage": 50,
+      "historical_baseline": {
+        "mae": 0.8776,
+        "rmse": 1.1655,
+        "available": true
+      },
+      "ml": {
+        "mae": 7.4319,
+        "rmse": 13.1566,
+        "available": true,
+        "reason": "Evaluated on retained/stale GPS observations",
+        "interval_coverage_percent": 54.84,
+        "avg_interval_width": 9.82
+      },
+      "hybrid": {
+        "mae": 4.0533,
+        "rmse": 6.6839,
+        "available": true,
+        "fallback_active": false
+      }
+    },
+    "75%": {
+      "missing_percentage": 75,
+      "retained_percentage": 25,
+      "historical_baseline": {
+        "mae": 0.8776,
+        "rmse": 1.1655,
+        "available": true
+      },
+      "ml": {
+        "mae": 11.6901,
+        "rmse": 16.9835,
+        "available": true,
+        "reason": "Evaluated on retained/stale GPS observations",
+        "interval_coverage_percent": 40.32,
+        "avg_interval_width": 10.41
+      },
+      "hybrid": {
+        "mae": 6.1175,
+        "rmse": 8.6117,
+        "available": true,
+        "fallback_active": false
+      }
+    },
+    "100%": {
+      "missing_percentage": 100,
+      "retained_percentage": 0,
+      "historical_baseline": {
+        "mae": 0.8776,
+        "rmse": 1.1655,
+        "available": true
+      },
+      "ml": {
+        "mae": null,
+        "rmse": null,
+        "available": false,
+        "reason": "Current position unavailable without live GPS",
+        "interval_coverage_percent": null,
+        "avg_interval_width": null
+      },
+      "hybrid": {
+        "mae": 0.8776,
+        "rmse": 1.1655,
+        "available": true,
+        "fallback_active": true
+      }
+    }
+  }
+}

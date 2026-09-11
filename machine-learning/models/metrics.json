@@ -1,0 +1,26 @@
+{
+  "dataset_total_samples": 620,
+  "train_samples": 496,
+  "test_samples": 124,
+  "observed_records_in_dataset": 10,
+  "simulated_records_in_dataset": 610,
+  "historical_baseline": {
+    "mae": 0.8776,
+    "rmse": 1.1655
+  },
+  "ml": {
+    "mae": 1.1741,
+    "rmse": 1.645
+  },
+  "hybrid": {
+    "mae": 1.0117,
+    "rmse": 1.4168
+  },
+  "mae": 1.1741,
+  "rmse": 1.645,
+  "interval_coverage_percent": 77.42,
+  "avg_interval_width": 8.81,
+  "model_type": "RandomForestRegressor",
+  "quantile_model_type": "GradientBoostingRegressor (10th & 90th percentile)",
+  "evaluation_note": "Controlled historical/simulated prototype evaluation on held-out 20% test set."
+}
